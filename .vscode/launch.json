@@ -1,0 +1,13 @@
+{
+    "configurations": [
+      {
+        "type": "cppvsdbg",
+        "request": "launch",
+        "name": "Launch Pong",
+        "program": "${workspaceFolder}/build/pong.exe",
+        "cwd": "${workspaceFolder}",
+        "stopAtEntry": false,
+        "preLaunchTask": "build"
+      }
+    ]
+}
